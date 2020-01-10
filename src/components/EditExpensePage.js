@@ -39,22 +39,3 @@ const mapStateToProps = (state, props) => {
 
 export default connect(mapStateToProps, mapDispatchToProps)(EditExpensePage);
 
-// const EditExpensePage = props => {
-//   console.log(props);
-//   return (
-//     <div>
-//       <ExpenseForm
-//         expense={props.expense}
-//         onSubmit={this.onSubmit}
-//       />
-//       <button
-//         onClick={() => {
-//           props.dispatch(removeExpense({ id: props.expense.id }));
-//           props.history.push("/");
-//         }}
-//       >
-//         Remove
-//       </button>
-//     </div>
-//   );
-// };
