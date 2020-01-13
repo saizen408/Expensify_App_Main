@@ -54,6 +54,6 @@
     "enzyme-to-json": "^3.0.1",
     "jest": "^21.2.1",
     "react-test-renderer": "^15.6.1",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^3.1.11"
   }
 }
